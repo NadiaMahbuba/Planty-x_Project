@@ -219,7 +219,7 @@ ol {
     transform: translateY(-175px); */
     right:0;
    
-    transform: translate(-139px,-98px);
+    transform: translate(-245px,-98px);
 }
 .button_hover:hover+.hide2 {
     display: block;
