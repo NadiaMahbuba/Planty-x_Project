@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Belleza&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Belleza&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Quicksand:wght@300..700&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Actor&family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Actor&family=Be+Vietnam+Pro:wght@600&family=Bebas+Neue&family=Dancing+Script:wght@600&family=EB+Garamond:ital,wght@1,600&family=Lora:ital,wght@0,400..700;1,400..700&family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Pacifico&family=Parisienne&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab:wght@200&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap');
+/* -----common css part start-------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+i {
+    width: 24px;
+    height: 24px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* -----common css part end---------- */
+/* ------ Navbar part start----------- */
+.logo_col {
+    width: 123px;
+}
+
+.menu_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_row .main_items ul {
+    display: flex;
+    gap: 45px;
+}
+
+.menu_row .main_items ul li a {
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+#main_menu {
+    padding: 28px 0;
+    position: relative;
+}
+.bar{
+    display:none;
+}
+/* ------ Navbar part end----------- */
+/*-----Banner part start  ------*/
+.banner-text h1 {
+    font-size: 80px;
+    font-weight: 400;
+    font-family: "Belleza", serif;
+    color: #010101;
+    width: 523px;
+}
+
+.banner-text a {
+    width: 178px;
+    height: 55px;
+    background-color: #010101;
+    border-radius: 38px;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Adamina", serif;
+    color: #FFFFFF;
+    margin-top: 52px;
+    margin-bottom: 77px;
+    position: relative;
+}
+
+.banner-text .para1 {
+    width: 320px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Adamina", serif;
+}
+
+.banner-text .para2 {
+    width: 320px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Adamina", serif;
+    margin-top: 33px;
+    margin-bottom: 62px;
+}
+
+.banner_brands {
+    display: flex;
+    gap: 90px;
+}
+
+.banner_brands .brandImage {
+    width: 190px;
+}
+
+.banner_brands .brandImage2 {
+    width: 115px;
+}
+
+.bannerImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+/*-----Banner part end  ------*/
+/* -----Icon part and it's hover effect start ----*/
+.menu_row .icons {
+    display: flex;
+    gap: 33px;
+}
+
+#plant-gap {
+    margin-left: 359px;
+}
+
+.icons .search_hover {
+    transition: .5s;
+}
+
+.search_hover:hover {
+    background: linear-gradient(#aee826, #5c9b21);
+    border-radius: 100%;
+    font-size: 27px;
+    height: 45px;
+    width: 45px;
+    color: #5C4033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----Icon part and it's hover effect END ----*/
+/*------ Nav part hover part START --------*/
+.nav_hover:hover {
+    background: linear-gradient(#aee826, #5c9b21);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav_hover {
+    transition: 1s;
+}
+/*------ Nav part hover part END --------*/
+/*---Button hover effect START -------*/
+.button_hover:hover {
+    background: linear-gradient(#aee826, #5c9b21);
+    color: #654321;
+    font-weight: 800;
+    box-shadow: 0 12px 16px 0 rgba(1, 65, 23, 0.24), 0 17px 50px 0 rgba(27, 240, 38, 0.19);
+    box-shadow: 5px 5px #013220;
+}
+
+.hide {
+    height: 80px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    top: 10;
+    left: 10;
+    transform: translateY(-175px);
+}
+
+.button_hover:hover+.hide {
+    display: block;
+}
+.hide {
+    height: 80px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    top: 10;
+    left: 10;
+    transform: translateY(-175px);
+}
+.hide1 {
+    height: 80px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    top: 10;
+    left: 10;
+    transform: translateY(-94px);
+}
+.button_hover:hover+.hide1 {
+    display: block;
+}
+.hide2 {
+    height: 80px;
+    width: 80px;
+    display: none;
+    position: absolute;
+    /* top: 10;
+    left:100;
+    transform: translateY(-175px); */
+    right:0;
+   
+    transform: translate(-139px,-98px);
+}
+.button_hover:hover+.hide2 {
+    display: block;
+}
+/*---Button hover effect END -------*/
+/*------ h1 hover part start --------*/
+.particle-deconstruct-element {
+    width: 523px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.particle-deconstruct-element h1 {
+
+    position: relative;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+.particle-deconstruct-element::before,
+.particle-deconstruct-element::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-radial-gradient(circle at center,
+            rgb(128, 195, 66) 1px,
+            transparent 2px,
+            transparent 50px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.particle-deconstruct-element:hover h1 {
+    background-image: linear-gradient(to right, #003300, #597931);
+    transform: scale(1.5) rotate(360deg);
+    opacity: 0;
+}
+
+.particle-deconstruct-element:hover::before {
+    transform: scale(2) rotate(45deg);
+    opacity: 0.3;
+}
+
+.particle-deconstruct-element:hover::after {
+    transform: scale(2) rotate(-45deg);
+    opacity: 0.3;
+}
+/*------ h1 hover part end --------*/
+/*------ plantcare part start------- */
+.plantCareRow{
+    display:flex;
+    gap:90px;
+}
+.plantCareRow .plantCare_text1 p{
+    font-size:24px;
+    font-weight:400;
+    font-family: "Actor", sans-serif;
+    color:#000000;
+    width:498px;
+}
+.plantCareRow .plantCare_text2 h3{
+width:627px;
+font-size:36px;
+font-family: "Lora", serif;
+font-weight:500;
+}
+#plantCare{
+padding-top:85px;
+margin-top:20px;
+}
+.plantCareRow .plantCare_text2 a{
+    font-size:20px;
+    font-weight:400;
+    font-family: "Adamina", serif;
+    color:#000000;
+    margin-top:63px;
+}
+.plantCareRow .plantCare_text2 .arrow_background{
+    width:30px;
+    height:30px;
+    background-color: #000000;
+    color:#FFFFFF;
+    border-radius: 50%;
+text-align:center;
+padding:4px;
+margin-left:10px;
+}
+.arrow_background:hover{
+    background: linear-gradient(#aee826, #5c9b21);   
+}
+.arrow_background:hover i{
+    color: #654321;
+}
+.plantCare_text2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .plantCare_text2::after,
+  .plantCare_text2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #aee826, #5c9b21);
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .plantCare_text2::before {
+    top: -5px;
+    transform-origin: left;
+  }
+  .plantCare_text2 .learn_more_section{
+    display:flex;
+    gap:100px;
+  }
+  .plantCare_text2:hover::after,
+  .plantCare_text2:hover::before {
+    transform: scaleX(1);
+  }
+  
+/*------ PlantCare part end------- */
+/*------ Everything together part START ------*/
+.everything_together{
+    width:100%;
+    height:436px;
+    background-color: #EDEDED;
+    position:relative;
+    margin-top:446px;
+}
+.everything_together .together_img{
+    position:absolute;
+    top:-69%;
+}
+.everything_together h3{
+    font-size:36px;
+    font-weight:500;
+    font-family:"Lora",serif;
+    color:#000000;
+    position:absolute;
+    bottom:50px;
+    left:50%;
+    transform:translate(-50%);
+}
+
+/* -----everything together part hover start------*/
+.flip-box{
+    background-color: transparent;
+    width: 1390px;
+    height: 572px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);}
+    .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; 
+        backface-visibility: hidden;
+      }
+      /*----together_img hover part start----*/
+      together_img:hover{
+        background-image: url('images/planting.jpg');
+      }  
+/*------ Everything together part END ------*/
+/*------ BestSeller part start  -------*/
+#bestSeller{
+    padding-top: 114px;
+}
+.bestSellerHead h4{
+    font-size: 20px;
+    font-weight: 400;
+    font-family:"Adamina",serif;
+    color:Black;
+}
+.bestSellerHead h2{
+    font-size:48px;
+    font-weight:500;
+    font-family:"Lora",serif;
+    color:#000000;
+    width:526px;
+    margin-top:34px;
+    margin-bottom:37px;
+}
+.bestSellerProducts_row{
+    margin-top: 50px;
+    display:flex;
+    gap:44px;
+}
+.bestSellerHead a{
+    padding:11px 44px;
+    background: #010101;
+    border-radius: 29px;
+    font-size:15px;
+    font-weight: 400;
+    font-family:"Adamina",serif;
+    color:#FFFFFF;
+}
+.singleProduct{
+    width:368px;
+    
+}
+.singleProductText{
+    display:flex;
+justify-content:space-between;
+margin-top:18px;
+}
+.singleProductText p{
+    font-size:20px;
+    font-weight:400;
+    font-family:"Adamina",serif;
+    color:#000000;
+}
+.reviewText1 h2{
+    font-size:20px;
+    font-weight:400;
+    font-family:"Adamina",serif;
+    color:#000000;
+}
+#review{
+    padding-top:178px;
+}
+.reviewText1 p{
+    width:262px;
+    font-size:16px;
+    font-weight:400;
+    font-family: "Abel",sans-serif;
+    color:#000000;
+    margin-top: 23px;
+    margin-bottom:10px;
+}
+.reviewText1 .rating ul{
+    display:flex;
+    gap:6px;
+    color:goldenrod;
+}
+.reviewText1 .rating p{
+    font-size:16px;
+    font-weight:400;
+    font-family:"Abel",sans-serif;
+    color:#000000;
+}
+.reviewText1 .rating .star_rating_number{
+    display:flex;
+
+}
+.reviewText1 .rating .star_rating_number p{
+    margin-top:0px;
+    margin-left: 17px;
+} 
+.totalReviews{
+    font-size:13px;
+    font-weight:400px;
+    font-family:"Adamina",serif;
+    color:#000000;
+}
+.reviewText2 h2{
+    font-size:36px;
+    font-weight: 500;
+font-family:"Lora",serif;
+color:#000000;
+width:676px;
+}
+.reviewTextRow{
+    display:flex;
+    gap:183px;
+}
+.reviewText2 h3{
+    font-family:"Lora",serif;
+    font-size:24px;
+    font-weight: 500;
+    margin-top:59px;
+}
+.reviewText2 p{
+    color:#000000;
+    font-weight: 300;
+    font-family: "Abel", sans-serif;
+    margin-top:11px;
+}
+.reviewImage{
+    margin-top: 54px;
+    display:flex;
+    gap:60px;
+}
+/*-------- inspired part start ---------*/
+#inspired{
+    padding-top:50px;
+}
+.inspiredImg{
+    padding-top: 72px;
+    padding-left: 116px;
+    height:746px;
+    background:url("../images/flowerPot.png")
+}
+.inspiredImg h2{
+   width: 450px;
+    font-family:"Lora",serif;
+    font-weight: 500px;
+    font-size: 48px;
+    color:#000000;
+    margin-bottom: 9px;
+}
+.inspiredImg p{
+    font-weight: 300;
+    font-size: 16px;
+    width:286px;
+    font-family: "Abel", sans-serif;
+    color:#000000;
+    margin-bottom: 7px;
+}
+.inspiredImg a{
+    font-size:20px;
+    font-weight:400;
+    font-family:"Adamina",serif;
+    color: #000000;
+    display:flex;
+    gap:38px;
+    align-items: center;
+}
+.inspiredImg a span{
+    width:30px;
+    height:30px;
+    background-color: #000000;
+    border-radius: 50%;
+    
+color: #FFFFFF;
+display:inline-block;
+display:flex;
+justify-content:center;
+text-align: center;
+align-items: center;
+}
+/*-------- inspired part end ---------*/
+/* --------email part start-------- */
+#email_part{
+    margin-top:50px;
+}
+.email_part_start{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email_part_start .emailHeading{
+    width: 706px;
+}
+.email_part_start .emailHeading h2{
+
+    font-size:48px;
+    font-weight:500;
+    font-family: "Lora", serif;
+    color:#000000;
+}
+.subscription .subsTextField{
+    width:426px;
+    height:40px;
+    border:none;
+    font-family: "Abel", sans-serif;
+    outline: none;
+
+}
+.thickBorderHr{
+    border:1px solid black;
+}
+input::placeholder{
+    font-weight: 300;
+    font-size:16px;
+    font-family: "Abel", sans-serif;
+    color:#000000;
+}
+.subscription{
+    margin-top:40px;
+
+}
+.subscribe_button{
+    background-color: #010101;
+    color: #FFFFFF;
+    padding:10px 30px;
+    border-radius: 26px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:500;
+    font-size:14px;
+    font-family:"Abel",sans-serif;
+    border:0;
+}
+/* ------footer part start-------- */
+.footer{
+ background-color: #F3F3F3;
+ padding:70px;
+ margin-top: 67px;
+}
+.footer_row .logo_section img{
+    width:123px;
+}
+.footer_row .contact_us_section ul{
+display:flex;
+gap:60px;
+}
+.footer_row{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.footer_row .icon_section{
+    display:flex;
+    gap:60px;
+    font-size: 24px;
+}
+.footer_row .icon_section i{
+    width:35px;
+    height:35px;
+}
+.footer_row .contact_us_section ul li{
+font-family: "Quicksand", sans-serif;
+font-weight: 400;
+font-size:16px;
+color:#000000;
+}
+.icon_section .facebook:hover{
+    color:blue;
+}
+.icon_section .twitter:hover{
+    color:#657786;
+}
+.icon_section .Instagram:hover{
+    color:#DE3163;
+}
+
+/*------- footer part end----------- */
+/*-----Image hover part start-------*/
+.singleProductImage{
+    position:relative;
+    overflow: hidden;
+}
+.singleProductImage .imgOverly{
+    width:100%;
+    height:100%;
+   background: #00000032;
+    position:absolute;
+    top:0;
+    left:-100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    transform: scale(0);
+    transition:all linear .4s;
+}
+
+.singleProductImage:hover .imgOverly{
+    transform:scale(1.1);
+    left:0;
+}
+.singleProductImage .imgOverly button{
+background: transparent;
+border:0;
+font-size:20px;
+font-weight:400;
+font-family:"Adamina",serif;
+color:black;
+background: white;
+border-radius: 50%;
+padding: 10px;
+}
+.singleProductImage .imgOverly .camera{
+   transition:all 0.5s ease;
+}
+.singleProductImage .imgOverly .camera:hover{
+   color:white;
+    width:120px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a955ff, #ea51ff);
+    
+}
+.singleProductImage .imgOverly .shopping{
+    transition:all 0.5s ease;   
+}
+.singleProductImage .imgOverly .shopping:hover{
+    color:white;
+    width:120px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #80FF72, #7EE8FA);   
+}
+.singleProductImage .imgOverly .heart{
+    transition:all 0.5s ease;
+}
+.singleProductImage .imgOverly .heart:hover{
+    color:white;
+    width:120px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ffa9c6, #f434e2);     
+}
+.singleProductImage .imgOverly .share{
+    transition:all 0.5s ease;
+}
+.singleProductImage .imgOverly .share:hover{
+    color:white;
+    width:120px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #56CCF2, #2F80ED);     
+}   
+.singleProductImage .imgOverly .arrow{
+    transition:all 0.5s ease;  
+}
+.singleProductImage .imgOverly .arrow:hover{
+    color:white;
+    width:120px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #E52020, #F9CB43);     
+}
+
+.singleProductImage .imgOverly button span{
+display:none;
+}
+.singleProductImage .imgOverly button:hover span{
+    display:inline-block;
+    font-size: 16px;
+    font-family:"Adamina",serif;
+    }
+ /*-----Image hover part start-------*/   
+ 
